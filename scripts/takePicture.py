@@ -7,5 +7,5 @@ camera = PiCamera()
 
 camera.start_preview()
 sleep(1)
-camera.capture('camera/pictures/image.jpg')
+camera.capture('/agile-node-red-nodes/camera/pictures/image.jpg')
 camera.stop_preview()
